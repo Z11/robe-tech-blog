@@ -1,6 +1,6 @@
 ---
-title: 'Welcome To My Web Developer Blog'
-tags: ["react", "vscode", "git", "css", "python", "ruby", "java", "angular", "html", "php", "mongodb", "graphql", "gatsby" ]
+title: 'Creating Stevie The Bus Website for Photo Booth Services'
+tags: ["react", "vscode", "git", "css", "html", "graphql", "gatsby", "java", "personal project" ]
 published: true
 date: '2018-08-20'
 ---

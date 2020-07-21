@@ -51,7 +51,7 @@ const AboutPage = (props) => {
                                 <TechTag tag="nodejs" tech="Node.js" name={tags["nodejs"]} size={20} color="lightgreen" />
                                 <TechTag tag="html" tech="HTML" name={tags["html"]} size={20} color="darkorange" />
                                 <TechTag tag="css" tech="CSS" name={tags["css"]} size={20} color="teal" />
-                            </div>  
+                            </div>
                         </div>
                         <div className="mt-4">
                             <span className="text-success d-inline-block" title="prism">
@@ -63,7 +63,7 @@ const AboutPage = (props) => {
                             <span className="text-success d-inline-block" title="icons">
                                 <FaCheckCircle size={26} style={{ color: "success" }} />
                             </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Developer-relevant social-media icon links including GitHub, Stack Overflow and freeCodeCamp</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">Developer-relevant social-media icon links including GitHub</p>
                         </div>
                         <div>
                             <span className="text-success d-inline-block" title="mobile">

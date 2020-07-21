@@ -26,7 +26,7 @@
 - Social media sharing icons in each post
 - Icons from React Icons (Font Awesome, Devicons, etc,...)
 - Beautiful tech-topic tags to attach to your web-development-related blog posts.
-- Developer-relevant social media icon links, including GitHub, Stack Overflow, and freeCodeCamp.
+- Developer-relevant social media icon links, including GitHub
 - Minimalist design makes it highly modifiable; make your own customized contact forms and search components, for example.
 
 ## Getting Started
