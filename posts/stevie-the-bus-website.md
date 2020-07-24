@@ -1,6 +1,6 @@
 ---
 title: 'Creating Stevie The Bus Website for Photo Booth Services'
-tags: ["react", "vscode", "git", "css", "html", "graphql", "gatsby", "java", "personal project" ]
+tags: ["react", "vscode", "git", "css", "html", "graphql", "gatsby", "java", "personalproject" ]
 published: true
 date: '2018-08-20'
 ---
