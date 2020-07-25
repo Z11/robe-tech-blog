@@ -1,5 +1,5 @@
 ---
-title: 'Creating Stevie The Bus Website for Photo Booth Services'
+title: 'Creating "Stevie The Bus Website for Photo Booth Services"'
 tags: ["react", "vscode", "git", "css", "html", "graphql", "gatsby", "java", "personalproject" ]
 published: true
 date: '2018-08-20'
@@ -11,3 +11,4 @@ This blog template is designed for web developers. Whether you're a professional
 ![](../../../src/images/gatsby-icon.png)
 
 Inline images in markdown supported as well.
+
