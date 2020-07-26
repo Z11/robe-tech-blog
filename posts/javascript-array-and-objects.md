@@ -2,12 +2,12 @@
 title: 'Careful passing arrays and objects in Javascript !!! Specially with BIG data sets.'
 tags: ["javascript", "nodejs"]
 published: true
-date: '2019-01-06'
+date: '2020-01-06'
 ---
 
 <img width="560px" height="315px" src="../src/images/itsOkItsFine.png"/>
 
-Array and objects are awesome ways to store your data. However, sometimes we tend to forget the dangers of saving the data to new arrays/objects. The danger arises when developers save the data to a new store and still modify the old store. Why do we need to know this ? If your handling large sets in data and modifying them after storing the data in a different array, then you could potentially unintentionally change the data. This unintentional situation will lead to hours/days to try to debug 💩💩💩
+Array and objects are awesome ways to store your data. However, sometimes we tend to forget the dangers of saving the data to new arrays/objects. Why do we need to know this ? If you're handling large arrays and modifying them after storing the data in a new array, then you could unintentionally change the new array. This unintentional situation will lead to hours/days to debug 💩💩💩
 
 For example:
 
@@ -26,7 +26,7 @@ Can you guess what the output will be ? The answer is:  💩
 
 Why did the value in `temp` change when the code clearly shows I only made a change to `current` ?
 
-The reason is that when you store `current` into `temp` your not actually storing the values... your actually storing the pointer that is pointing to the section in memory where the values reside.
+The reason is that when you store `current` into `temp`, you're not actually storing the values... you're actually storing the pointer that is pointing to the section in memory where the values reside.
 
 So, how can we avoid situations like this ?
 
