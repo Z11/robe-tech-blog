@@ -1,5 +1,5 @@
 ---
-title: 'Creating "Stevie The Bus Website for Photo Booth Services"'
+title: 'Creating 'Stevie The Photo Bus' Website for Photo Booth Services'
 tags: ["react", "vscode", "git", "css", "html", "graphql", "gatsby", "java", "personalproject" ]
 published: true
 date: '2018-08-20'

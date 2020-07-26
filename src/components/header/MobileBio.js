@@ -7,8 +7,14 @@ const MobileBio = (props) => {
 
     return (
         <div className="mobile-bio-main">
-            <img src={robertoProfileImg} className="ml-4 mt-2" style={{ maxWidth: `75px`, maxHeight: `75px`, borderRadius: `50%`, boxShadow: `1px 1px 3px` }} alt="author-pic" />
-            <h4 className="mr-4 mt-4">{props.author}</h4>
+            <article>
+                <section>
+                    <img src={robertoProfileImg} style={{ maxWidth: `175px`, maxHeight: `175px`, borderRadius: `50%`, boxShadow: `1px 1px 3px` }} alt="author-pic" />
+                </section>
+                <section>
+                    <h4 className="mt-4">{props.author}</h4>
+                </section>
+            </article>
         </div>
     )
 }

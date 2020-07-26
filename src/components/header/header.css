@@ -42,8 +42,11 @@ small {
 }
 
 .mobile-bio-main {
+  width: 55%;
+  margin: 0 auto;
   background: white;
   display: none;
+  text-align: center;
 }
 
 
@@ -55,6 +58,5 @@ small {
   .mobile-bio-main{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
 }

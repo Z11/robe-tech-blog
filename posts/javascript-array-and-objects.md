@@ -1,17 +1,17 @@
 ---
 title: 'Careful passing arrays and objects in Javascript !!! Specially with BIG data sets.'
-tags: ["javascript"]
+tags: ["javascript", "nodejs"]
 published: true
 date: '2019-01-06'
 ---
 
 <img width="560px" height="315px" src="../src/images/itsOkItsFine.png"/>
 
-Array and objects are awesome ways to store your data. However, sometimes we tend to forget the dangerous of saving the data to new arrays/objects. The danger arises when developers save the data to a new store and still modify the old store. Why do we need to know this ? If your handling large sets in data and modifying them after storing the data in a different array, then you could potentially unintentionally change the data. This unintentional situation will lead to hours/days to try to debug 💩💩💩
+Array and objects are awesome ways to store your data. However, sometimes we tend to forget the dangers of saving the data to new arrays/objects. The danger arises when developers save the data to a new store and still modify the old store. Why do we need to know this ? If your handling large sets in data and modifying them after storing the data in a different array, then you could potentially unintentionally change the data. This unintentional situation will lead to hours/days to try to debug 💩💩💩
 
 For example:
 
-```javscript
+```javascript
 const current = ['Roberto','Ted','Michael'];
 const temp = current;
 current[0] = 'Bob';
@@ -36,7 +36,7 @@ This easiest way is to use the spread operator `...` This operator "expands the 
 
 Lets use the same example with the spread operator:
 
-```JavaScript
+```javascript
 const current = ['Roberto','Ted','Michael'];
 const temp = [...current];
 current[0] = 'Bob';

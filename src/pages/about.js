@@ -2,7 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaCheckCircle } from "react-icons/fa"
+import MobileBio from "../components/header/MobileBio"
+import { FaRocket, FaCheckCircle } from "react-icons/fa"
 import "./index.css"
 
 import Sidebar from "../components/sidebar/Sidebar"
@@ -31,45 +32,46 @@ const AboutPage = (props) => {
                 <div className="post-main">
                     <SEO title="About" />
                     <div className="mt-3">
+                        <MobileBio author={'Roberto Chupin'} />
                         <h2 className="heading">About</h2>
-                        <p><i>Developer Diary is a Gatsby Starter blog template created with web developers in mind, but really, anyone can use it. It's totally usable right out of the box, but minimalist enough to be easily modifiable to suit your needs.</i></p>
+                        <p>Welcome to my blog !!! this website shows the interesting projects that I am working on and my insight on tech topics. Feel free to look around :)</p>
                         <br />
-                        <h4>Features</h4>
+                        <h4>Things you will learn in this blog website:</h4>
                         <div>
                             <span className="text-success d-inline-block" title="blazing">
                                 <FaCheckCircle size={26} style={{ color: "success" }} />
                             </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Blazing fast, as you'd expect from a Gatsby site</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">Cool features in specific programming languages</p>
+                        </div>
+                        <div>
+                            <span className="text-success d-inline-block" title="prism">
+                                <FaCheckCircle size={26} style={{ color: "success" }} />
+                            </span>
+                            <p className="d-inline-block ml-3 w-75 align-top">Guides in building apps and websites</p>
+                        </div>
+                        <div>
+                            <span className="text-success d-inline-block" title="icons">
+                                <FaCheckCircle size={26} style={{ color: "success" }} />
+                            </span>
+                            <p className="d-inline-block ml-3 w-75 align-top">Cloud Services that will benefit your design</p>
+                        </div>
+                        <div>
+                            <span className="text-success d-inline-block" title="mobile">
+                                <FaCheckCircle size={26} style={{ color: "success" }} />
+                            </span>
+                            <p className="d-inline-block ml-3 w-75 align-top">Learn about Developer Tools that optimize your productivity</p>
                         </div>
                         <div>
                             <span className="text-success d-inline-block" title="tags">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
+                                <FaRocket size={26} style={{ color: "gray" }} />
                             </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Tech tags designed for web developers</p>
+                            <p className="d-inline-block ml-3 w-75 align-top">Use these categories to search for topics that you are interested in:</p>
                             <div className="ml-5">
                                 <TechTag tag="react" tech="React" name={tags["react"]} size={20} color="deepskyblue" />
                                 <TechTag tag="nodejs" tech="Node.js" name={tags["nodejs"]} size={20} color="lightgreen" />
                                 <TechTag tag="html" tech="HTML" name={tags["html"]} size={20} color="darkorange" />
                                 <TechTag tag="css" tech="CSS" name={tags["css"]} size={20} color="teal" />
                             </div>
-                        </div>
-                        <div className="mt-4">
-                            <span className="text-success d-inline-block" title="prism">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Includes Prism for code block styling in markdown files</p>
-                        </div>
-                        <div>
-                            <span className="text-success d-inline-block" title="icons">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Developer-relevant social-media icon links including GitHub</p>
-                        </div>
-                        <div>
-                            <span className="text-success d-inline-block" title="mobile">
-                                <FaCheckCircle size={26} style={{ color: "success" }} />
-                            </span>
-                            <p className="d-inline-block ml-3 w-75 align-top">Mobile responsive, of course</p>
                         </div>
                     </div>
                 </div>

@@ -9,23 +9,23 @@ import "./sidebar.css"
 
 const SocialLinks = ({ contacts }) => {
     return (
-        <div className="side-social-links float-left mt-3 mb-3">
-            <a className="text-secondary p-2"
+        <div className="social-links float-left mt-3 mb-3">
+            <a className="text-primary ml-1"
                 href={contacts.linkedin}>
                 <span title="Linked In">
-                    <FaLinkedin size={26} style={{ color: "secondary" }} />
+                    <FaLinkedin size={40} style={{ color: "primary" }} />
                 </span>
             </a>
-            <a className="text-secondary p-2"
+            <a className="text-secondary ml-1"
                 href={contacts.github}>
                 <span title="GitHub">
-                    <FaGithubSquare size={26} style={{ color: "secondary" }} />
+                    <FaGithubSquare size={40} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-secondary p-2"
+            <a className="text-info ml-1"
                 href={contacts.twitter}>
                 <span title="Twitter">
-                    <FaTwitterSquare size={26} style={{ color: "secondary" }} />
+                    <FaTwitterSquare size={40} style={{ color: "info" }} />
                 </span>
             </a>
         </div>
