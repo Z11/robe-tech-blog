@@ -2,7 +2,7 @@
 
 module.exports = {
   url: "https://www.robertochupin.com",
-  title: "Developer Diary",
+  title: "Roberto Chupin - Tech Blog",
   tagline: "I'm a Software Developer that explorers awesome new technologies",
   copyright: "© 2020 Roberto, All rights reserved",
   author: {
