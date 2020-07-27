@@ -25,8 +25,8 @@ Once I got a good understanding of how GatsbyJS worked, I began designing the ar
 <br />
 
 The idea behind this architecture is:
- * Have quick builds and deployments on code changes. 
- * Have all content managed by a CMS (Content Managment System).
+ * Have Netlify make builds and deployments when triggered by code changes in Github. 
+ * Have all content managed by Prismic which is a CMS (Content Managment System).
  * Have Google Analytics to keep track of traffic to the website.
  * Have good Google Lighthouse scores.
  * Must be free 😺
