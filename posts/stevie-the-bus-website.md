@@ -11,7 +11,7 @@ date: '2020-07-26'
 
 
 
-Background, me and my girlfriend started creating a Photo Bus business and we needed a website. We looked at different website builders like 💩`Square Space`💩 and 💩`Wix`💩, but they all charged $10-$20 dollars a month for a simple static website. I convinced my girlfriend that I could build a fast website with ZERO monthly costs and amazing SEO. Thus, she agreed and I began my journey using GatsbyJS.
+Background, me and my girlfriend started creating a Photo Bus business and we needed a website. We looked at different website builders like Square Space and Wix, but they all charged $10-$20 dollars a month for a simple static website. I convinced my girlfriend that I could build a fast website with ZERO monthly costs and amazing SEO. Thus, she agreed and I began my journey using GatsbyJS.
 
 Why did I choose GatsbyJS ? This framework was often spoken at my job and on twitter. I would always hear `"fast performance"`, `"great SEO"`, `"beautiful documentation"`, and `"amazing developer experience"`. So many people are saying good things about GatsbyJS, then I figured it must be good. I first decided to read the [GatsbyJS documentation...](https://www.gatsbyjs.org/docs/) and I must say the documentation is `BEAUTIFUL !!!`. 
 
