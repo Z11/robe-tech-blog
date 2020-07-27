@@ -26,10 +26,10 @@ Once I got a good understanding of how GatsbyJS worked, I began designing the ar
 
 The idea behind this architecture is:
  * Have quick builds and deployments on code changes. 
- * Have all content managed by CMS (Content Managment System).
- * Have Goggle Analytics to keep track of traffic to the website.
- * Google Lighthouse score must be GOOD.
- * Also, it must be free 😺
+ * Have all content managed by a CMS (Content Managment System).
+ * Have Google Analytics to keep track of traffic to the website.
+ * Have good Google Lighthouse scores.
+ * Must be free 😺
 
 After a month of iterations on how the website should look, we finally finished !!!
 

@@ -4,7 +4,7 @@ module.exports = {
   url: "https://www.robertochupin.com",
   title: "Developer Diary",
   tagline: "I'm a Software Developer that explorers awesome new technologies",
-  copyright: "© 2019 roberto, All rights reserved",
+  copyright: "© 2020 Roberto, All rights reserved",
   author: {
     name: "Roberto Chupin",
     bio: "Awesome Coder during the day and Fun Hacker at night",
