@@ -58,4 +58,6 @@ What I liked about GatsbyJS:
     * `gatsby-plugin-react-helmet` - Gives support for header data to help with SEO.
 
 
+⭐️ Special thanks to [Thalia Perla](https://www.thaliaperlaphoto.com/) for making the content for the website 💯 
+
 If you want to chat more about this, then contact me on twitter and I'll gladly explain more! 🙌
