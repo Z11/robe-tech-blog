@@ -1,5 +1,5 @@
 ---
-title: 'Careful passing arrays and objects in Javascript !!! Specially with BIG data sets.'
+title: 'The dangers of using arrays and objects in Javascript'
 tags: ["javascript", "nodejs"]
 published: true
 date: '2020-01-06'

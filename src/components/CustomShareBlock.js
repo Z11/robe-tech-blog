@@ -14,7 +14,7 @@ const CustomShareBlock = props => {
             { network: "Twitter", icon: FaTwitter },
             { network: "Facebook", icon: FaFacebook },
             { network: "Linkedin", icon: FaLinkedin },
-            { network: "Email", icon: FaEnvelope }
+            // { network: "Email", icon: FaEnvelope }
         ],
         text: title,
         longtext: siteName
