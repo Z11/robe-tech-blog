@@ -33,7 +33,7 @@ The idea behind this architecture is:
 
 After a month of iterations on how the website should look, we finally finished !!!
 
-Check out the website: [www.steviethephotobus.com](https://www.steviethephotobus.com/)
+⭐️ Check out the website: [www.steviethephotobus.com](https://www.steviethephotobus.com/)
 
 <img width="520px" height="335px" src="../src/images/stevieTheBusHero.png"/>
 <br />
