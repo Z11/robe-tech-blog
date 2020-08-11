@@ -63,7 +63,7 @@ What I liked about `Prismic`:
 * UI experience - The Prismic admin panel makes it super easy to add and structure your content.  
 * Performance - The API is fast. Any content changes you make will be instantly available in the API.
 * Image optimization - When your app asks for images from Prismic during a build. The app will always get the .webp versions of the images which will make your website even faster.
-* Web Hooks - Prismic is able to call a Netlify webhook to initiate a build when content changes are made in Prismic... This is the cherry on top of the cake 🍰. No need for a developer to manually start a build, it's all automatic when content creaters/clients make changes in Prismic. 
+* Web Hooks - Prismic is able to call a Netlify webhook to initiate a build when content changes are made in Prismic... This is the cherry on top of the cake 🍰. No need for a developer to manually start a build, it's all automatic when content creaters/clients make content changes in Prismic. 
 * Price - FREE!!!! 🥇
 
 ⭐️ Special thanks to [Thalia Perla](https://www.thaliaperlaphoto.com/) for making the content for the website 💯 
