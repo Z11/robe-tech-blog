@@ -40,10 +40,11 @@ After a month of iterations on how the website should look, we finally finished 
 
 
 
-What I liked about GatsbyJS:
+What I liked about `GatsbyJS`:
 * Developer experience - The Gatsby CLI is great for building and developing a project. Also, the vast pool of plugins that are configured to work with Gatsby make configurating node packages a breeze. 
 * Performance - Any changes you make to a file will take less than a second to show up in the screen. This performance is attributed to Gatsby's Hot Reload feature that is in place by default. However, any plugins that needs to be added and any changes to the gatsby-config.json will require you to restart gatsby.
 * Image optimization - Using gatsby-image is one of my favorite tools to use, since it provides different sizes of an image. This is to improve performance on different screen sizes. 
+* Price - FREE!!!! 🥇
 * Lighthouse scores are amazing, check out the lighthouse scores for the website:
 
 <img width="520px" height="335px" src="../src/images/lighthouseScores.png"/>
@@ -57,6 +58,13 @@ What I liked about GatsbyJS:
     * `gatsby-plugin-google-analytics` - Allows Google Analytics to capture data regarding visits to your site.
     * `gatsby-plugin-react-helmet` - Gives support for header data to help with SEO.
 
+
+What I liked about `Prismic`:
+* UI experience - The Prismic admin panel makes it super easy to add and structure your content.  
+* Performance - The API is fast. Any content changes you make will be instantly available in the API.
+* Image optimization - When your app asks for images from Prismic during a build. The app will always get the .webp versions of the images which will make your website even faster.
+* Web Hooks - Prismic is able to call a Netlify webhook to initiate a build when content changes are made in Prismic... This is the cherry on top of the cake 🍰. No need for a developer to manually start a build, it's all automatic when content creaters/clients make changes in Prismic. 
+* Price - FREE!!!! 🥇
 
 ⭐️ Special thanks to [Thalia Perla](https://www.thaliaperlaphoto.com/) for making the content for the website 💯 
 
